@@ -90,7 +90,7 @@ namespace epic_2._0
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao abrir the circe saga: " + ex.Message);
+                MessageBox.Show("Erro ao abrir the circe saga: " + ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             GC.Collect();
@@ -114,7 +114,7 @@ namespace epic_2._0
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao abrir the underworld saga: " + ex.Message);
+                MessageBox.Show("Erro ao abrir the underworld saga: " + ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             GC.Collect();
@@ -133,12 +133,31 @@ namespace epic_2._0
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao abrir the Thunder saga: " + ex.Message);
+                MessageBox.Show("Erro ao abrir the Thunder saga: " + ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             GC.Collect();
             GC.WaitForPendingFinalizers();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+			try
+			{
+				using (Form8 form8 = new Form8())
+				{
+					this.Hide();
+					form8.ShowDialog();
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Erro ao abrir the winsdom saga: " + ex.Message);
+			}
+
+			GC.Collect();
+			GC.WaitForPendingFinalizers();
+		}
     }
     
 }
