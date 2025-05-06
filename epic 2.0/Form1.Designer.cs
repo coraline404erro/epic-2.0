@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-			this.button11 = new System.Windows.Forms.Button();
-			this.button10 = new System.Windows.Forms.Button();
 			this.button9 = new System.Windows.Forms.Button();
 			this.btncirce = new System.Windows.Forms.Button();
 			this.btnocean = new System.Windows.Forms.Button();
@@ -40,32 +38,6 @@
 			this.btncyclop = new System.Windows.Forms.Button();
 			this.btntroy = new System.Windows.Forms.Button();
 			this.SuspendLayout();
-			// 
-			// button11
-			// 
-			this.button11.FlatAppearance.BorderSize = 0;
-			this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.AppWorkspace;
-			this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonShadow;
-			this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button11.Location = new System.Drawing.Point(2, 450);
-			this.button11.Name = "button11";
-			this.button11.Size = new System.Drawing.Size(107, 23);
-			this.button11.TabIndex = 21;
-			this.button11.Text = "testes de elenco!!";
-			this.button11.UseVisualStyleBackColor = true;
-			// 
-			// button10
-			// 
-			this.button10.FlatAppearance.BorderSize = 0;
-			this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.AppWorkspace;
-			this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonShadow;
-			this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button10.Location = new System.Drawing.Point(490, 450);
-			this.button10.Name = "button10";
-			this.button10.Size = new System.Drawing.Size(75, 23);
-			this.button10.TabIndex = 20;
-			this.button10.Text = "historia!!";
-			this.button10.UseVisualStyleBackColor = true;
 			// 
 			// button9
 			// 
@@ -82,6 +54,7 @@
 			this.button9.TabIndex = 19;
 			this.button9.Text = " ";
 			this.button9.UseVisualStyleBackColor = true;
+			this.button9.Click += new System.EventHandler(this.button9_Click);
 			// 
 			// btncirce
 			// 
@@ -183,6 +156,7 @@
 			this.button3.TabIndex = 13;
 			this.button3.Text = " ";
 			this.button3.UseVisualStyleBackColor = true;
+			this.button3.Click += new System.EventHandler(this.button3_Click);
 			// 
 			// btncyclop
 			// 
@@ -225,8 +199,6 @@
 			this.BackgroundImage = global::epic_2._0.Properties.Resources.EPIC_the_Musical;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(568, 475);
-			this.Controls.Add(this.button11);
-			this.Controls.Add(this.button10);
 			this.Controls.Add(this.button9);
 			this.Controls.Add(this.btncirce);
 			this.Controls.Add(this.btnocean);
@@ -237,16 +209,13 @@
 			this.Controls.Add(this.btncyclop);
 			this.Controls.Add(this.btntroy);
 			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Text = "EPIC: THE MUSICAL, BY JORGE RIVEIRA-HERRANS";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button btncirce;
         private System.Windows.Forms.Button btnocean;

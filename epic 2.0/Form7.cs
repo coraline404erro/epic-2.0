@@ -129,7 +129,7 @@ namespace epic_2._0
 				axWindowsMediaPlayer1.URL = caminho;
 				axWindowsMediaPlayer1.Ctlcontrols.play();
 			}
- 
+			else
 			{
 				MessageBox.Show("Arquivo não encontrado! Verifique o caminho.");
 			}

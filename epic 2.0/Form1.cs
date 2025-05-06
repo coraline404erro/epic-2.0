@@ -158,7 +158,47 @@ namespace epic_2._0
 			GC.Collect();
 			GC.WaitForPendingFinalizers();
 		}
-    }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+			try
+			{
+				using (Form9 form9 = new Form9())
+				{
+					this.Hide();
+					form9.ShowDialog();
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Erro ao abrir the veangence saga: " + ex.Message);
+			}
+
+			GC.Collect();
+			GC.WaitForPendingFinalizers();
+		}
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+			try
+			{
+				using (Form10 form10 = new Form10())
+				{
+					this.Hide();
+					form10.ShowDialog();
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Erro ao abrir the Ithaca saga: " + ex.Message);
+			}
+
+			GC.Collect();
+			GC.WaitForPendingFinalizers();
+		}
+	}
+    
+    
     
 }
 

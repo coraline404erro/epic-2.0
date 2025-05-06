@@ -168,7 +168,7 @@
 			this.Controls.Add(this.textBox1);
 			this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
 			this.Name = "Form7";
-			this.Text = "Form7";
+			this.Text = "THE THUNDER SAGA";
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();

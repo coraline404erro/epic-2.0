@@ -91,7 +91,7 @@
 			this.radioButton1.BackColor = System.Drawing.Color.Black;
 			this.radioButton1.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.radioButton1.ForeColor = System.Drawing.Color.Transparent;
-			this.radioButton1.Location = new System.Drawing.Point(81, 3);
+			this.radioButton1.Location = new System.Drawing.Point(75, 17);
 			this.radioButton1.Name = "radioButton1";
 			this.radioButton1.Size = new System.Drawing.Size(125, 25);
 			this.radioButton1.TabIndex = 3;
@@ -106,7 +106,7 @@
 			this.radioButton2.BackColor = System.Drawing.Color.Black;
 			this.radioButton2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.radioButton2.ForeColor = System.Drawing.Color.Transparent;
-			this.radioButton2.Location = new System.Drawing.Point(254, 3);
+			this.radioButton2.Location = new System.Drawing.Point(257, 17);
 			this.radioButton2.Name = "radioButton2";
 			this.radioButton2.Size = new System.Drawing.Size(130, 25);
 			this.radioButton2.TabIndex = 4;
@@ -172,7 +172,7 @@
 			this.Controls.Add(this.axWindowsMediaPlayer1);
 			this.Controls.Add(this.textBox1);
 			this.Name = "Form8";
-			this.Text = "Form8";
+			this.Text = "THE WINSDOM SAGA";
 			this.Load += new System.EventHandler(this.Form8_Load);
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
